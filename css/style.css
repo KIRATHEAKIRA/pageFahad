@@ -1,12 +1,122 @@
+
+p, h1, h2, h3, h4, h5, h6, a{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.col-1 {
+    width: 8.333333%;
+    padding: 25px;
+    }
+    .col-2 {
+    width: 16.6666%;
+    padding: 25px;
+    }
+    .col-3 {
+    width: 25%;
+    padding: 25px;
+    }
+    .col-4 {
+    width: 33.333333%;
+    padding: 25px;
+    }
+    
+    .col-5 {
+    width: 41.6666666%;
+    padding: 25px;
+    }
+    .col-6 {
+    width: 50%;
+    padding: 25px;
+    }
+    .col-7 {
+    width: 58.333333%;
+    padding: 25px;
+    }
+    .col-8 {
+    width: 66.666666%;
+    padding: 25px;
+    }
+    
+    .col-9 {
+    width: 75%;
+    padding: 25px;
+    }
+    .col-10 {
+    width: 83.333333%;
+    padding: 25px;
+    }
+    .col-11 {
+    width: 91.666666%;
+    padding: 25px;
+    }
+    .col-12 {
+    width: 100%;
+    padding: 25px;
+    }
+
 body {
-    background-color: #70ceed;
+    background-color: #04171F;
+    margin: 0%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
 background: rgba(255,255,255,0.15);
 border-radius:16x;
 box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6.4px);
--webkit-backdrop-filter: blur(6.4px);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.25);
+border-radius: 15px;
+width: 80%;
+margin: 0 auto;
+position: relative;
+padding: 15px 100px;
+background: rgba(255, 255, 255, .1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+
 }
+.navbar a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+nav a:hover{
+    background-color: aquamarine;
+}
+.navbar p{
+    margin-right: auto;
+    color: white;
+    font-weight: 600;
+}
+h1 {
+    text-align: center;
+    font-size: 350%;
+    color: white;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.sectionone h2{
+    text-align: justify;
+    margin-top: 150px;
+    font-size: 180%;
+    font-weight: 600;
+
+}
+.sectionone p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 150;
+
+}
+
