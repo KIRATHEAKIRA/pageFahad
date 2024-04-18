@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 p,
 h1,
 h2,
@@ -10,6 +14,11 @@ a {
     font-optical-sizing: auto;
     font-style: normal;
     color: white;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .col-1 {
@@ -74,36 +83,30 @@ a {
 
 body {
     background-color: #04171F;
-    margin: 0%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar {
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 16x;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
+.container {
     width: 80%;
     margin: 0 auto;
-    position: relative;
-    padding: 15px 100px;
+}
+
+.nav-bar {
+    /* background: rgba(255, 255, 255, 0.15); */
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    /* width: 80%; */
+    margin: 0 auto;
+    /* position: relative; */
+    padding: 15px 10px;
     background: rgba(255, 255, 255, .1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.navbar a {
-    height: 100%;
+.nav-bar a {
     padding: 0 30px;
     text-decoration: none;
     align-items: center;
@@ -114,8 +117,9 @@ nav a:hover {
     background-color: aquamarine;
 }
 
-.navbar p {
-    margin-right: auto;
+.nav-bar p {
+    /* padding-right: 10px; */
+    padding: 0 30px;
     color: white;
     font-weight: 600;
 }
@@ -128,15 +132,27 @@ h1 {
     margin-top: 70px;
 }
 
-.sectionone {
-    padding: 10rem 9% 2rem;
+.glass {
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 1);
+    border-radius: 5%;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    
+}
+.glass h2{
+    font-size: 250%;
+}
+
+/*.sectionone {
+    /* padding: 10rem 9% 2rem; 
 }
 
 .glassone {
-    display: flow-root;
+    /* display: flow-root;
     align-items: center;
     padding: 0.9%;
-    max-width: 600rem;
+    max-width: 600rem; 
 }
 
 .glassone h2 {
@@ -155,8 +171,8 @@ h1 {
 
 .glassone {
 
-    padding: 50px;
-    margin: 10px;
+    /* padding: 50px; */
+/* margin: 10px; 
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(2.5px);
@@ -191,7 +207,7 @@ h1 {
 }
 
 .imgone {
-    float: right;
+    /* float: right; 
 }
 
 .imgtwo{
