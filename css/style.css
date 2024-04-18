@@ -1,89 +1,107 @@
-
-p, h1, h2, h3, h4, h5, h6, a{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: white;
 }
+
 .col-1 {
     width: 8.333333%;
     padding: 25px;
-    }
-    .col-2 {
+}
+
+.col-2 {
     width: 16.6666%;
     padding: 25px;
-    }
-    .col-3 {
+}
+
+.col-3 {
     width: 25%;
     padding: 25px;
-    }
-    .col-4 {
+}
+
+.col-4 {
     width: 33.333333%;
     padding: 25px;
-    }
-    
-    .col-5 {
+}
+
+.col-5 {
     width: 41.6666666%;
     padding: 25px;
-    }
-    .col-6 {
+}
+
+.col-6 {
     width: 50%;
     padding: 25px;
-    }
-    .col-7 {
+}
+
+.col-7 {
     width: 58.333333%;
     padding: 25px;
-    }
-    .col-8 {
+}
+
+.col-8 {
     width: 66.666666%;
     padding: 25px;
-    }
-    
-    .col-9 {
+}
+
+.col-9 {
     width: 75%;
     padding: 25px;
-    }
-    .col-10 {
+}
+
+.col-10 {
     width: 83.333333%;
     padding: 25px;
-    }
-    .col-11 {
+}
+
+.col-11 {
     width: 91.666666%;
     padding: 25px;
-    }
-    .col-12 {
+}
+
+.col-12 {
     width: 100%;
     padding: 25px;
-    }
+}
 
 body {
     background-color: #04171F;
     margin: 0%;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
-background: rgba(255,255,255,0.15);
-border-radius:16x;
-box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px);
-border: 1px solid rgba(255, 255, 255, 0.25);
-border-radius: 15px;
-width: 80%;
-margin: 0 auto;
-position: relative;
-padding: 15px 100px;
-background: rgba(255, 255, 255, .1);
-display: flex;
-justify-content: space-between;
-align-items: center;
+.navbar {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16x;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
+
 .navbar a {
     height: 100%;
     padding: 0 30px;
@@ -91,14 +109,17 @@ align-items: center;
     align-items: center;
     color: white;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: aquamarine;
 }
-.navbar p{
+
+.navbar p {
     margin-right: auto;
     color: white;
     font-weight: 600;
 }
+
 h1 {
     text-align: center;
     font-size: 350%;
@@ -106,17 +127,196 @@ h1 {
     font-weight: 600;
     margin-top: 70px;
 }
-.sectionone h2{
-    text-align: justify;
+
+.sectionone {
+    padding: 10rem 9% 2rem;
+}
+
+.glassone {
+    display: flow-root;
+    align-items: center;
+    padding: 0.9%;
+    max-width: 600rem;
+}
+
+.glassone h2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+
+}
+
+.glassone p {
+    font-size: 1.3rem;
+    margin: 2rem 0 4rem;
+    text-align: center;
+}
+
+.glassone {
+
+    padding: 50px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.bnt-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 5rem;
+}
+
+.bnt-box .bnt {
+    position: relative;
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+    text-decoration: none;
+    width: 15rem;
+    height: 30%;
+    background-color: purple;
+    border: 2rem solid purple;
+    border-radius: 1rem;
+    font: size 1.8em;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.imgone {
+    float: right;
+}
+
+.imgtwo{
+    float: right;
+    
+}
+.glasstwo {
+    position: absolute;
+    text-align: center;
+    left: 1030px;
+    right: 150px;
+    top: 950px;
+    bottom: 10px;
+    padding: 50px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+
+/**.imgone{
+    
+    position: absolute;
+    top: 20%;
+    left: 60%;
+       
+}
+.glassone{
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    position: absolute;
+    padding: 50px;
+    margin: 50px;
+    float: left;
+    width: 50%;
+    height: 30%;
+    top: 20%;
+    text-align: center;
+
+}
+
+
+/**.glassone {
+ 
+    position: absolute;
+    padding: 50px;
+    margin: 50px;
+    float: left;
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+
+}
+
+.glassone h2 {
+    text-align: center;
+
+    font-size: 200%;
+    font-weight: 600;
+
+}
+
+.glassone p {
+    position: relative;
+    text-align: left;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.glassone a {
+    position: relative;
+    left: 278px;
+    right: 907px;
+    top: 32px;
+    bottom: 217px;
+    text-decoration: none;
+    background: #8787D9;
+    border-radius: 15px;
+}
+
+.imgone {
+    position: relative;
+    left: 60%;
+    top: 100px;
+
+
+}
+
+
+
+
+/**.sectionone h2 {
+    text-align: center;
     margin-top: 150px;
     font-size: 180%;
     font-weight: 600;
 
 }
-.sectionone p{
-    text-align: justify;
+
+.sectionone p {
+   /** text-align: center;
     margin-top: 20px;
     font-size: 150;
 
 }
 
+.sectionone img {
+    margin-top: 100px;
+    margin-right: 150px;
+}
