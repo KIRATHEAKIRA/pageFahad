@@ -87,7 +87,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 
@@ -264,6 +264,96 @@ h1 {
     line-height: 70px;
     word-spacing: 2px;
     letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.sk1{
+    margin-left: 50px;
+}
+.sk2{
+    margin-left:50px ;
+    margin-top:120px ;
+}
+.sk3{
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.porgressbBar h3 {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.pogBar {
+    background: #959595;
+    width: 1000px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.pogBar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.pogBar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(114, 88, 206);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.html {
+    background: rgba(135, 135, 217, 1);
+    animation: html 1s linear forwards;
+}
+
+.css {
+    background: rgba(135, 135, 217, 1);
+    animation: css 1s linear forwards;
+}
+
+.figma {
+    background: rgba(135, 135, 217, 1);
+    animation: figma 1s linear forwards;
+}
+
+.html span {
+    border: 3px solid rgba(41, 35, 93, 1);
+}
+
+.css span {
+    border: 3px solid rgba(41, 35, 93, 1);
+}
+
+.figma span {
+    border: 3px solid rgba(41, 35, 93, 1);
+}
+@keyframes html{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 55%;
+    }
+}
+@keyframes figma{
+    100%{
+        width: 70%;
+    }
 }
 
 /*skills pogress bar unfinsh*/
@@ -287,7 +377,8 @@ h1 {
     word-spacing: 2px;
     letter-spacing: 1px;
 }
-.glassTwo{
+
+.glassTwo {
     border: 1px solid rgba(255, 255, 255, .1);
     box-shadow: inset 30.9667px -30.9667px 30.9667px rgba(165, 165, 165, 0.117), inset -30.9667px 30.9667px 30.9667px rgba(255, 255, 255, 0.117);
     background: rgba(217, 217, 217, 0.117);
@@ -296,55 +387,105 @@ h1 {
     text-align: left;
     margin-top: 50px;
     margin-bottom: 30px;
-}
-.glassTwo h3{
     text-align: center;
-    font-size: 200%;
-    font-weight: 500;
-    line-height: 70px;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-}
-.glassThree{
-    border: 1px solid rgba(255, 255, 255, .1);
-    box-shadow: inset 30.9667px -30.9667px 30.9667px rgba(165, 165, 165, 0.117), inset -30.9667px 30.9667px 30.9667px rgba(255, 255, 255, 0.117);
-    background: rgba(217, 217, 217, 0.117);
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    text-align: left;
-    margin-top: 50px;
-    margin-bottom: 30px;  
-}
-.glassThree h3{
-    text-align: center;
-    font-size: 200%;
-    font-weight: 500;
-    line-height: 70px;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-}
-.glassFour{
-    border: 1px solid rgba(255, 255, 255, .1);
-    box-shadow: inset 30.9667px -30.9667px 30.9667px rgba(165, 165, 165, 0.117), inset -30.9667px 30.9667px 30.9667px rgba(255, 255, 255, 0.117);
-    background: rgba(217, 217, 217, 0.117);
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    text-align: left;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-.glassFour h3{
-    text-align: center;
-    font-size: 200%;
-    font-weight: 500;
-    line-height: 70px;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-}
-.imgTwo{
-    margin-top: 50px;
 }
 
+.glassTwo h3 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+    line-height: 70px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.glassThree {
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: inset 30.9667px -30.9667px 30.9667px rgba(165, 165, 165, 0.117), inset -30.9667px 30.9667px 30.9667px rgba(255, 255, 255, 0.117);
+    background: rgba(217, 217, 217, 0.117);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.glassThree h3 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+    line-height: 70px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.glassFour {
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: inset 30.9667px -30.9667px 30.9667px rgba(165, 165, 165, 0.117), inset -30.9667px 30.9667px 30.9667px rgba(255, 255, 255, 0.117);
+    background: rgba(217, 217, 217, 0.117);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.glassFour h3 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+    line-height: 70px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.imgTwo {
+    margin-top: 50px;
+}
+.slider-area{
+width: 85vmin;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+overflow: hidden;
+border: 20px solid #ffffff;
+border-radius: 8px;
+box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.img-area{
+    width: 100%;
+    display: flex;
+    animation: slide 5s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
 
 
 /*.sectionone {
